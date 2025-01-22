@@ -17,10 +17,8 @@
   },
   "interests": [
     { "name": "Java Script" },
-    { "name": "" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Way of Tea" },
+    { "name": "Skate Boarding" },
   ],
   "skills": [
     {
@@ -57,6 +55,14 @@
     }
   ],
   "volunteer": [
+    {
+      "organization": "Izumo Taisha Hawaii",
+      "website": "",
+      "position": "Student Volunteer",
+      "startDate": "2014",
+      "endDate": "",
+      "summary": "Supported community events and rituals, assisting with setup, coordination, and ensuring smooth operations for temple visitors."
+    }
   ],
   "awards": [
     {
