@@ -8,7 +8,6 @@ labels:
   - Personal Experience  
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/cs_journey.jpg">  
 
 *Persistence: the fact of continuing in an opinion or course of action despite difficulty or opposition.*  
 
@@ -43,3 +42,7 @@ Now, in my **second semester of junior year**, I’m taking **ICS 314 - Software
 If there’s one thing I’ve learned from my journey so far, it’s that **computer science is not about being the smartest person in the room—it’s about persistence**. I’ve failed, struggled, and almost given up, but I kept going.  
 
 Some things will always be difficult, but that doesn’t mean they’re impossible. **I’ve learned to push through, find new ways to learn, and keep moving forward—even when it feels like I’m falling behind.**
+
+
+
+*Note: I used ChatGPT to assist with formatting this essay, but the experiences and reflections shared are entirely my own.*  
