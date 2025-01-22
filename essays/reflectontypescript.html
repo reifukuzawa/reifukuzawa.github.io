@@ -1,7 +1,7 @@
 ---
 layout: essay  
 type: essay  
-title: "TypeScript in Reflections: A Software Engineering Perspective"  
+title: "Persistence: the fact of continuing in an opinion or course of action despite difficulty or opposition."  
 date: 2025-01-22  
 published: true  
 labels:  
@@ -9,72 +9,40 @@ labels:
 ---
 
 
-# Introduction  
-So far, TypeScript has been an interesting ride. I had zero experience in JavaScript beforehand; learning them side by side presented some challenges along with the joys of doing something for the first time. It was amazing how TypeScript brings structured robustness into JavaScript to make it maintainable, scaled, and the go-to for large-scale software engineering projects.  
+*Persistence: the fact of continuing in an opinion or course of action despite difficulty or opposition.*  
 
-In the following essay, I will reflect on my experience with TypeScript, its comparison with other languages, its role regarding software engineering, and my reflection of athletic software engineering through practice WODs.  
+I never imagined that pursuing a **Computer Science degree** would be as tough as it has been. When I started, I knew it wouldn’t be easy, but I didn’t expect to **fail, struggle, and even question whether I should quit**. Yet, through all the difficulties, I have **kept moving forward**, and that, more than anything, has defined my journey.  
 
-## TypeScript versus JavaScript and Other Languages  
-Since this is the first time that I've used JavaScript, learning TypeScript added some extra overhead in learning it. On the other hand, it made static typing in TypeScript let me understand structures of data and expectations of functions more clearly. Unlike JavaScript, which mostly allows type-related bugs to pass unnoticed until runtime, TypeScript catches those bugs at compile time. This makes it easier to debug and increases code readability.  
+## **Freshman Year – A Rough Start**  
 
-Compared to languages like Java and C++, TypeScript feels like a middle ground: It provides type safety while still maintaining the flexibility of JavaScript. Amongst everything, one thing I found particularly useful was TypeScript's type system advanced with union types and type inference, which can be helpful in making the code safer as well as more expressive.  
+My introduction to programming began in **ICS 111 - Introduction to Computer Science I** with **Scott Robertson**. Learning **Java** for the first time felt overwhelming but also exciting. By the end of the semester, I finally understood how a computer program worked, and I felt like I had taken my first step toward becoming a programmer.  
 
-## Strengths and Weaknesses in Software Engineering  
-TypeScript has the following advantages from a software engineering perspective:  
+Then came **ICS 211 - Introduction to Computer Science II** with **Edo Biagioni**, and everything changed. The assignments were tough, recursion confused me, and my **first real challenge in CS hit me hard**. I did everything I could—studied, practiced, asked for help—but I still ended up with a **D**. It was a wake-up call.  
 
-- **Better maintainability**: TypeScript has the capability to make codebases more maintainable as it scales, using extensive usage of type annotations and interfaces.  
-- **Improved collaboration**: Teamwork is smoother because TypeScript will have clear expectations about the inputs and outputs of each function.  
-- **Better tooling**: An IDE can offer better autocompletion, refactoring tools, and better error detection.  
+## **Sophomore Year – Almost Giving Up**  
 
-Yet, TypeScript has several drawbacks:  
+Since I needed **ICS 211** to move forward, I had to **retake the class**. I thought that since I had seen the material before, I would do better. But the opposite happened—I failed again.  
 
-- **Learning curve**: Being a complete beginner, it was quite critical for me to learn JavaScript and TypeScript at the same time.  
-- **Compilation step**: TypeScript, unlike JavaScript, requires compilation before running and hence is an additional development step.  
+At that point, I started questioning everything. **Was I just not meant for computer science? Was I wasting my time?** Seeing my classmates move on while I was stuck on the same class twice was frustrating. I seriously considered quitting.  
 
-Despite these challenges, I still believe TypeScript is a net positive for most projects and especially projects that require a long-term maintenance phase.  
+Before making that decision, I explored other options and found that **Kapi‘olani Community College (KCC) offered ICS 211** as well. The structure was different, the pacing was more manageable, and with a new approach, I **finally understood the concepts I had struggled with for so long**. This time, I **passed with a B**.  
 
-## Athletic Software Engineering and Practice WODs  
-The learning about athletic software engineering was interesting, mainly through the practice WODs. Time pressure resulted in stress; however, on the other side, it has simulated real life when a decision or solution for a problem at work needs to be attained as soon as possible.  
+That moment changed my perspective. I realized that **failure doesn’t mean you can’t succeed—it just means you haven’t found the right way to learn yet**.  
 
-What I can say now:  
+## **Junior Year – A New Level of Challenge**  
 
-- **Useful for skill development**: The structured, timed exercises helped reinforce TypeScript concepts effectively.  
-- **Stressful yet rewarding**: Since the time constraint made me think fast and code fast; it was challenging, yet a good thing.  
-- **Will it work for me?** I think this approach works well to reinforce fundamentals, but for deep understanding, I like a more leisurely exploratory approach.  
+Having finally passed ICS 211, I could **move forward in my CS degree**. In my **first semester of junior year**, I took **ICS 311 - Algorithms** with **Brook Conner**. The fact that the class was **online** made it more manageable, but the content itself was brutal.  
 
-## Practice WOD: Unique Algorithm Implementation  
-One of the WODs was to create an algorithm to see if a string contains all unique characters. Here's my TypeScript solution:  
+Algorithms **completely changed how I thought about programming**. I had to analyze problems deeply, optimize solutions, and understand **time complexity**. Concepts like **graph theory, dynamic programming, and NP-completeness** made me feel like a beginner all over again. There were many nights where I felt stuck, staring at problems for hours, unsure of how to even start. But despite the struggles, I **passed**.  
 
-```typescript
-// 1.1. Is Unique: Implement an algorithm to determine if a string has all unique characters.
-function isUnique(words: string) {
-    let uniqueWord: string[] = [];
-    for (let i = 0; i < words.length; i++) {
-        if (uniqueWord.includes(words[i])) {
-            return false;
-        } else {
-            uniqueWord.push(words[i]);
-        }
-    }
-    return true;
-}
+Now, in my **second semester of junior year**, I’m taking **ICS 314 - Software Engineering I**. It’s less theoretical than Algorithms but **challenges me in a different way**. Instead of solving problems alone, I’ve had to **work in teams, use GitHub, and follow Agile development practices**. It’s my first real exposure to **how software is built in the industry**, and while it’s tough, I can see why these skills matter.  
 
-console.log(isUnique('abcde')); // prints true
-console.log(isUnique('abcdea')); // prints false
-```
-      
-## Summary  
-This function runs a loop for every character in the string and, using an array, checks whether it has been encountered or not. In case of finding a duplicate character, it immediately returns false; otherwise, it will return true at the end of the loop.  
+## **Why It Was All Worth It**  
 
-This solution is intuitive for checking uniqueness, but it involves the `.includes()` method inside a loop, making it **O(n²)**.  
+If there’s one thing I’ve learned from my journey so far, it’s that **computer science is not about being the smartest person in the room—it’s about persistence**. I’ve failed, struggled, and almost given up, but I kept going.  
 
-## Conclusion  
-TypeScript has proved a great addition in my programming toolbox. Learning it together with JavaScript was a challenge, but this helped me develop good coding habits and better understand the very concepts of programming. It strikes a balance between JavaScript's flexibility and the rigor of statically-typed languages.  
+Some things will always be difficult, but that doesn’t mean they’re impossible. **I’ve learned to push through, find new ways to learn, and keep moving forward—even when it feels like I’m falling behind.**
 
-Although it has its learning curve, benefits outweigh the drawbacks, especially on large projects. In short, concerning athletic software engineering, practice WODs were exciting though a little stressful to learn.  
 
-To summarize, personally, I do consider TypeScript a very nice language from the point of view of software engineering, and I am looking forward to working with it soon.  
 
-## AI Usage  
-I used AI as a kind of brainstorming tool and to help organize my thoughts, fine-tune the structure of my essay, but the actual content is based on my personal experience and point of view.  
-
+*Note: I used ChatGPT to assist with formatting this essay, but the experiences and reflections shared are entirely my own.*  
