@@ -62,7 +62,8 @@ function isUnique(words: string) {
 console.log(isUnique('abcde')); // prints true
 console.log(isUnique('abcdea')); // prints false
 ```
-      ## Summary  
+      
+## Summary  
 This function runs a loop for every character in the string and, using an array, checks whether it has been encountered or not. In case of finding a duplicate character, it immediately returns false; otherwise, it will return true at the end of the loop.  
 
 This solution is intuitive for checking uniqueness, but it involves the `.includes()` method inside a loop, making it **O(n²)**.  
