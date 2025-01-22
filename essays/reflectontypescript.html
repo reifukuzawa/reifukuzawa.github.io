@@ -8,52 +8,45 @@ labels:
   - Personal Experience  
 ---
 
-Introduction
 
-So far, TypeScript has been an interesting ride. I had zero experience in JavaScript beforehand; learning them side by side presented some challenges along with the joys of doing something for the first time. It was amazing how TypeScript brings structured robustness into JavaScript to make it maintainable, scaled, and the go-to for large-scale software engineering projects. In the following essay, I will reflect on my experience with TypeScript, its comparison with other languages, its role regarding software engineering, and my reflection of athletic software engineering through practice WODs.
+# Introduction  
+So far, TypeScript has been an interesting ride. I had zero experience in JavaScript beforehand; learning them side by side presented some challenges along with the joys of doing something for the first time. It was amazing how TypeScript brings structured robustness into JavaScript to make it maintainable, scaled, and the go-to for large-scale software engineering projects.  
 
-TypeScript versus JavaScript and Other Languages
+In the following essay, I will reflect on my experience with TypeScript, its comparison with other languages, its role regarding software engineering, and my reflection of athletic software engineering through practice WODs.  
 
-Since this is the first time that I've used JavaScript, learning TypeScript added some extra overhead in learning it. On the other hand, it made static typing in TypeScript let me understand structures of data and expectations of functions more clearly.
+## TypeScript versus JavaScript and Other Languages  
+Since this is the first time that I've used JavaScript, learning TypeScript added some extra overhead in learning it. On the other hand, it made static typing in TypeScript let me understand structures of data and expectations of functions more clearly. Unlike JavaScript, which mostly allows type-related bugs to pass unnoticed until runtime, TypeScript catches those bugs at compile time. This makes it easier to debug and increases code readability.  
 
-Unlike JavaScript, which mostly allows type-related bugs to pass unnoticed until runtime, TypeScript catches those bugs at compile time. This makes it easier to debug and increases code readability. Compared to languages like Java and C++, TypeScript feels like a middle ground: It provides type safety while still maintaining the flexibility of JavaScript.
+Compared to languages like Java and C++, TypeScript feels like a middle ground: It provides type safety while still maintaining the flexibility of JavaScript. Amongst everything, one thing I found particularly useful was TypeScript's type system advanced with union types and type inference, which can be helpful in making the code safer as well as more expressive.  
 
-Amongst everything, one thing I found particularly useful was TypeScript's type system advanced with union types and type inference, which can be helpful in making the code safer as well as more expressive.
+## Strengths and Weaknesses in Software Engineering  
+TypeScript has the following advantages from a software engineering perspective:  
 
-Strengths and Weaknesses in Software Engineering
+- **Better maintainability**: TypeScript has the capability to make codebases more maintainable as it scales, using extensive usage of type annotations and interfaces.  
+- **Improved collaboration**: Teamwork is smoother because TypeScript will have clear expectations about the inputs and outputs of each function.  
+- **Better tooling**: An IDE can offer better autocompletion, refactoring tools, and better error detection.  
 
-TypeScript has the following advantages from a software engineering perspective:
+Yet, TypeScript has several drawbacks:  
 
-Better maintainability: TypeScript has the capability to make codebases more maintainable as it scales, using extensive usage of type annotations and interfaces.
+- **Learning curve**: Being a complete beginner, it was quite critical for me to learn JavaScript and TypeScript at the same time.  
+- **Compilation step**: TypeScript, unlike JavaScript, requires compilation before running and hence is an additional development step.  
 
-Improved collaboration: Teamwork is smoother because TypeScript will have clear expectations about the inputs and outputs of each function.
+Despite these challenges, I still believe TypeScript is a net positive for most projects and especially projects that require a long-term maintenance phase.  
 
-Better tooling: An IDE can offer better autocompletion, refactoring tools, and better error detection.
+## Athletic Software Engineering and Practice WODs  
+The learning about athletic software engineering was interesting, mainly through the practice WODs. Time pressure resulted in stress; however, on the other side, it has simulated real life when a decision or solution for a problem at work needs to be attained as soon as possible.  
 
-Yet, TypeScript has several drawbacks:
+What I can say now:  
 
-Learning curve: Being a complete beginner, it was quite critical for me to learn JavaScript and TypeScript at the same time.
+- **Useful for skill development**: The structured, timed exercises helped reinforce TypeScript concepts effectively.  
+- **Stressful yet rewarding**: Since the time constraint made me think fast and code fast; it was challenging, yet a good thing.  
+- **Will it work for me?** I think this approach works well to reinforce fundamentals, but for deep understanding, I like a more leisurely exploratory approach.  
 
-Compilation step: TypeScript, unlike JavaScript, requires compilation before running and hence is an additional development step.
+## Practice WOD: Unique Algorithm Implementation  
+One of the WODs was to create an algorithm to see if a string contains all unique characters. Here's my TypeScript solution:  
 
-Despite these challenges, I still believe TypeScript is a net positive for most projects and especially projects that require a long-term maintenance phase.
-
-Athletic Software Engineering and Practice WODs
-
-The learning about athletic software engineering was interesting, mainly through the practice WODs. Time pressure resulted in stress; however, on the other side, it has simulated real life when a decision or solution for a problem at work needs to be attained as soon as possible. What I can say now:
-
-Useful for skill development: The structured, timed exercises helped reinforce TypeScript concepts effectively.
-
-Stressful yet rewarding: Since the time constraint made me think fast and code fast; it was challenging, yet a good thing.
-
-Will it work for me? I think this approach works well to reinforce fundamentals, but for deep understanding, I like a more leisurely exploratory approach.
-
-Practice WOD: Unique Algorithm Implementation
-
-One of the WODs was to create an algorithm to see if a string contains all unique characters. Here's my TypeScript solution:
-
+```typescript
 // 1.1. Is Unique: Implement an algorithm to determine if a string has all unique characters.
-
 function isUnique(words: string) {
     let uniqueWord: string[] = [];
     for (let i = 0; i < words.length; i++) {
@@ -66,19 +59,6 @@ function isUnique(words: string) {
     return true;
 }
 
-console.log(isUnique('abcde'));  // prints true
+console.log(isUnique('abcde')); // prints true
 console.log(isUnique('abcdea')); // prints false
 
-Summary
-
-This function runs a loop for every character in the string and, using an array, checks whether it has been encountered or not. In case of finding a duplicate character, it immediately returns false; otherwise, it will return true at the end of the loop. This solution is intuitive for checking uniqueness, but it involves the .includes() method inside a loop, making it O(n²).
-
-Conclusion
-
-TypeScript has proved a great addition in my programming toolbox. Learning it together with JavaScript was a challenge, but this helped me develop good coding habits and better understand the very concepts of programming. It strikes a balance between JavaScript's flexibility and the rigor of statically-typed languages. Although it has its learning curve, benefits outweigh the drawbacks, especially on large projects.
-
-In short, concerning athletic software engineering, practice WODs were exciting though a little stressful to learn. To summarize, personally, I do consider TypeScript a very nice language from the point of view of software engineering, and I am looking forward to working with it soon.
-
-AI Usage
-
-I used AI as a kind make
