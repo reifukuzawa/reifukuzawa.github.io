@@ -1,54 +1,45 @@
 ---
-layout: essay
-type: essay
-title: "The difficult things will always be difficult"
-# All dates must be YYYY-MM-DD format!
-date: 2016-02-06
-published: true
-labels:
-  - Engineering
+layout: essay  
+type: essay  
+title: "Persistence: the fact of continuing in an opinion or course of action despite difficulty or opposition."  
+date: 2025-01-22  
+published: true  
+labels:  
+  - Personal Experience  
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/cs_journey.jpg">  
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+*Persistence: the fact of continuing in an opinion or course of action despite difficulty or opposition.*  
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+I never imagined that pursuing a **Computer Science degree** would be as tough as it has been. When I started, I knew it wouldn’t be easy, but I didn’t expect to **fail, struggle, and even question whether I should quit**. Yet, through all the difficulties, I have **kept moving forward**, and that, more than anything, has defined my journey.  
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
+## **Freshman Year – A Rough Start**  
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+My introduction to programming began in **ICS 111 - Introduction to Computer Science I** with **Scott Robertson**. Learning **Java** for the first time felt overwhelming but also exciting. By the end of the semester, I finally understood how a computer program worked, and I felt like I had taken my first step toward becoming a programmer.  
 
-Here's what I think: the difficult things will always be difficult.
+Then came **ICS 211 - Introduction to Computer Science II** with **Edo Biagioni**, and everything changed. The assignments were tough, recursion confused me, and my **first real challenge in CS hit me hard**. I did everything I could—studied, practiced, asked for help—but I still ended up with a **D**. It was a wake-up call.  
 
-## In the context of programming
+## **Sophomore Year – Almost Giving Up**  
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
+Since I needed **ICS 211** to move forward, I had to **retake the class**. I thought that since I had seen the material before, I would do better. But the opposite happened—I failed again.  
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
+At that point, I started questioning everything. **Was I just not meant for computer science? Was I wasting my time?** Seeing my classmates move on while I was stuck on the same class twice was frustrating. I seriously considered quitting.  
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
+Before making that decision, I explored other options and found that **Kapi‘olani Community College (KCC) offered ICS 211** as well. The structure was different, the pacing was more manageable, and with a new approach, I **finally understood the concepts I had struggled with for so long**. This time, I **passed with a B**.  
 
-## In the context of engineering
+That moment changed my perspective. I realized that **failure doesn’t mean you can’t succeed—it just means you haven’t found the right way to learn yet**.  
 
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
+## **Junior Year – A New Level of Challenge**  
 
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
+Having finally passed ICS 211, I could **move forward in my CS degree**. In my **first semester of junior year**, I took **ICS 311 - Algorithms** with **Brook Conner**. The fact that the class was **online** made it more manageable, but the content itself was brutal.  
 
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
+Algorithms **completely changed how I thought about programming**. I had to analyze problems deeply, optimize solutions, and understand **time complexity**. Concepts like **graph theory, dynamic programming, and NP-completeness** made me feel like a beginner all over again. There were many nights where I felt stuck, staring at problems for hours, unsure of how to even start. But despite the struggles, I **passed**.  
 
-## In the context of relationships
+Now, in my **second semester of junior year**, I’m taking **ICS 314 - Software Engineering I**. It’s less theoretical than Algorithms but **challenges me in a different way**. Instead of solving problems alone, I’ve had to **work in teams, use GitHub, and follow Agile development practices**. It’s my first real exposure to **how software is built in the industry**, and while it’s tough, I can see why these skills matter.  
 
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
+## **Why It Was All Worth It**  
 
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
+If there’s one thing I’ve learned from my journey so far, it’s that **computer science is not about being the smartest person in the room—it’s about persistence**. I’ve failed, struggled, and almost given up, but I kept going.  
 
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+Some things will always be difficult, but that doesn’t mean they’re impossible. **I’ve learned to push through, find new ways to learn, and keep moving forward—even when it feels like I’m falling behind.**
