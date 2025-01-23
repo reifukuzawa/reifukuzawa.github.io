@@ -33,31 +33,6 @@ Yet, TypeScript has several drawbacks:
 
 Despite these challenges, I still believe TypeScript is a net positive for most projects and especially projects that require a long-term maintenance phase.  
 
-## Practice WOD: Unique Algorithm Implementation  
-One of the WODs was to create an algorithm to see if a string contains all unique characters. Here's my TypeScript solution:  
-
-```typescript
-// 1.1. Is Unique: Implement an algorithm to determine if a string has all unique characters.
-function isUnique(words: string) {
-    let uniqueWord: string[] = [];
-    for (let i = 0; i < words.length; i++) {
-        if (uniqueWord.includes(words[i])) {
-            return false;
-        } else {
-            uniqueWord.push(words[i]);
-        }
-    }
-    return true;
-}
-
-console.log(isUnique('abcde')); // prints true
-console.log(isUnique('abcdea')); // prints false
-```
-## Summary  
-This function runs a loop for every character in the string and, using an array, checks whether it has been encountered or not. In case of finding a duplicate character, it immediately returns false; otherwise, it will return true at the end of the loop.  
-
-This solution is intuitive for checking uniqueness, but it involves the `.includes()` method inside a loop, making it **O(n²)**.  
-
 ## Conclusion  
 To summarize, personally, I do consider TypeScript a very nice language from the point of view of software engineering, and I am looking forward to working with it soon.  
 
