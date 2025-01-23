@@ -1,7 +1,7 @@
 ---
 layout: essay  
 type: essay  
-title: "Persistence: the fact of continuing in an opinion or course of action despite difficulty or opposition."  
+title: "My Journey with TypeScript: Learning, Challenges, and Insights"  
 date: 2025-01-22  
 published: true  
 labels:  
@@ -33,15 +33,6 @@ Yet, TypeScript has several drawbacks:
 
 Despite these challenges, I still believe TypeScript is a net positive for most projects and especially projects that require a long-term maintenance phase.  
 
-## Athletic Software Engineering and Practice WODs  
-The learning about athletic software engineering was interesting, mainly through the practice WODs. Time pressure resulted in stress; however, on the other side, it has simulated real life when a decision or solution for a problem at work needs to be attained as soon as possible.  
-
-What I can say now:  
-
-- **Useful for skill development**: The structured, timed exercises helped reinforce TypeScript concepts effectively.  
-- **Stressful yet rewarding**: Since the time constraint made me think fast and code fast; it was challenging, yet a good thing.  
-- **Will it work for me?** I think this approach works well to reinforce fundamentals, but for deep understanding, I like a more leisurely exploratory approach.  
-
 ## Practice WOD: Unique Algorithm Implementation  
 One of the WODs was to create an algorithm to see if a string contains all unique characters. Here's my TypeScript solution:  
 
@@ -68,10 +59,6 @@ This function runs a loop for every character in the string and, using an array,
 This solution is intuitive for checking uniqueness, but it involves the `.includes()` method inside a loop, making it **O(n²)**.  
 
 ## Conclusion  
-TypeScript has proved a great addition in my programming toolbox. Learning it together with JavaScript was a challenge, but this helped me develop good coding habits and better understand the very concepts of programming. It strikes a balance between JavaScript's flexibility and the rigor of statically-typed languages.  
-
-Although it has its learning curve, benefits outweigh the drawbacks, especially on large projects. In short, concerning athletic software engineering, practice WODs were exciting though a little stressful to learn.  
-
 To summarize, personally, I do consider TypeScript a very nice language from the point of view of software engineering, and I am looking forward to working with it soon.  
 
 ## AI Usage  
