@@ -8,7 +8,7 @@ labels:
   - Personal Experience  
 ---
 
-
+<img width="300px" class="rounded float-start pe-4" src="../img/learningjsandts.jpg">
 # Introduction  
 So far, TypeScript has been an interesting ride. I had zero experience in JavaScript beforehand; learning them side by side presented some challenges along with the joys of doing something for the first time. It was amazing how TypeScript brings structured robustness into JavaScript to make it maintainable, scaled, and the go-to for large-scale software engineering projects.  
 
