@@ -17,7 +17,8 @@ This experience taught me to appreciate Eric Raymond's essay, *"How to Ask Quest
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/goodquestion.png"> 
-
+ 
+[https://stackoverflow.com/questions/5020418/how-do-i-turn-off-the-fault-tolerant-heap][How do I turn off the fault tolerant heap?]
 
 
 ## The Anatomy of a Smart Question
@@ -40,6 +41,8 @@ This is the power that a well-posed question has since the community promptly en
 
 <img width="300px" class="rounded float-start pe-4" src="../img/badquestion.png">
 
+
+[https://stackoverflow.com/questions/79391830/encounter-a-pydantic-validate-error-when-defining-a-crewai-object][Encounter a pydantic validate error when defining a CrewAI object]
 
 
 ## The Consequences of a Poorly Asked Question
