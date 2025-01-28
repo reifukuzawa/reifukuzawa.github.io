@@ -16,7 +16,7 @@ This experience taught me to appreciate Eric Raymond's essay, *"How to Ask Quest
 
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/learningjsandts.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/goodimage.png">
 
 ## The Anatomy of a Smart Question
 
@@ -36,7 +36,7 @@ This is the power that a well-posed question has since the community promptly en
 
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/learningjsandts.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/badimage.png">
 
 ## The Consequences of a Poorly Asked Question
 
@@ -74,4 +74,9 @@ This exercise really crystallized one important truism: **a well-asked question 
 From now on, I will make sure my questions are well-structured, containing a good title, complete error messages, and a summary of what I have tried so far. This will not only help me to get better answers faster but also contribute to an efficient and supportive community on Stack Overflow.
 
 Next time I ask for help, I'll remember those twenty minutes—and make sure I don't waste someone else's.
+
+
+## AI Acknowledgment
+
+I used ChatGPT to assist with formatting my essay into Markdown and refining sentence structure for clarity. The core content, analysis, and examples were developed by me, and AI was used as a support tool to ensure better readability and organization.
 
