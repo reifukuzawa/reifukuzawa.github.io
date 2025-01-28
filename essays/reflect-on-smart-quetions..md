@@ -16,7 +16,7 @@ This experience taught me to appreciate Eric Raymond's essay, *"How to Ask Quest
 
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/goodimage.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/goodquestion.png">
 
 ## The Anatomy of a Smart Question
 
@@ -36,7 +36,7 @@ This is the power that a well-posed question has since the community promptly en
 
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/badimage.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/badquestion.png">
 
 ## The Consequences of a Poorly Asked Question
 
