@@ -16,6 +16,8 @@ This experience taught me to appreciate Eric Raymond's essay, *"How to Ask Quest
 
 ---
 
+<img width="300px" class="rounded float-start pe-4" src="../img/learningjsandts.jpg">
+
 ## The Anatomy of a Smart Question
 
 After a great deal of searching, I finally found a question that actually fit Raymond's criteria—one entitled **"How do I turn off the fault tolerant heap?"** that was well-formatted, clearly worded, and provided the necessary details to make troubleshooting possible.
@@ -33,6 +35,8 @@ This helped the experts to understand the problem right away and provide an effe
 This is the power that a well-posed question has since the community promptly engaged, offered a diagnosis on the problem right there, and provided actionable solutions at hand.
 
 ---
+
+<img width="300px" class="rounded float-start pe-4" src="../img/learningjsandts.jpg">
 
 ## The Consequences of a Poorly Asked Question
 
