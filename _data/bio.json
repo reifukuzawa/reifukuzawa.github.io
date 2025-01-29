@@ -17,7 +17,7 @@
   },
   "interests": [
     { "name": "Java Script" },
-    { "name": "Way of Tea" },
+    { "name": "Japanese Tea Ceremony" },
     { "name": "Skate Boarding" },
   ],
   "skills": [
@@ -51,6 +51,20 @@
       "summary": "Grill Cook",
       "highlights": [
         "Consistently prepared high-quality yakitori dishes, boosting customer satisfaction."
+      ]
+    }
+
+    {
+      "company": "Han-no-Daidokoro",
+      "position": "Host",
+      "website": "https://hannodaidokoro.com",
+      "startDate": "2024-12-7",
+      "endDate": "Present",
+      "summary": "Host",
+      "highlights": [
+        "Welcomed and seated guests in an upscale yakiniku dining experience, ensuring a seamless and memorable first impression."
+        ,"Managed reservations, waitlists, and table assignments to optimize guest flow and maintain a smooth dining experience.",
+        "Provided exceptional customer service by addressing guest inquiries, explaining menu offerings, and accommodating special requests.."
       ]
     }
   ],
