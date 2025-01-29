@@ -12,7 +12,7 @@ labels:
 summary: "ICS 486 (VR/AR Programming) project 3 is called Head Mounted Displays which is about virtual reality, or VR for short. Our VR project is called DreamdowsXP which is basically a grassland with WindowsXP aesthetics."
 ---
 <img width="300px" class="rounded float-start pe-4" src="../img/dreamdowsvr.png">
-<br><br>
+<br><br><br><br><br><br><br><br>
 
 # **DreamdowsXP: A Nostalgic VR Experience**
 
