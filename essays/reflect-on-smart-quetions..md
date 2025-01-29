@@ -18,7 +18,6 @@ This experience taught me to appreciate Eric Raymond's essay, *"How to Ask Quest
 
 <img width="300px" class="rounded float-start pe-4" src="../img/goodquestion.png"> 
 
- link to the page ↓
 [https://stackoverflow.com/questions/5020418/how-do-i-turn-off-the-fault-tolerant-heap][website]
 
 
