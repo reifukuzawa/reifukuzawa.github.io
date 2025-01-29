@@ -26,3 +26,5 @@ We present an interactive **Virtual Reality (VR) visualization** designed to exp
 
 ## **Impact**  
 By leveraging VR's **immersive capabilities**, our system makes complex unemployment data more accessible and enables users to **identify trends and regional impacts** that might be less apparent in traditional visualizations. This project **demonstrates the potential of VR for economic data analysis**, offering a novel approach to understanding historical unemployment patterns.  
+
+Formatted using ChatGPT for improved readability and structure.
