@@ -12,7 +12,19 @@ labels:
 summary: "ICS 486 (VR/AR Programming) project 3 is called Head Mounted Displays which is about virtual reality, or VR for short. Our VR project is called DreamdowsXP which is basically a grassland with WindowsXP aesthetics."
 ---
 
+<img width="300px" class="rounded float-start pe-4" src="../img/goodquestion.png"> 
 
-We are developing a VR experience called DreamdowsXP, which is inspired by the nostalgic aesthetics of Windows XP. This project focuses on creating an immersive virtual reality environment that places users in a serene grassland setting, reminiscent of the iconic Windows XP desktop background.
+# **DreamdowsXP: A Nostalgic VR Experience**
 
-Using head-mounted display technology, our goal is to provide an interactive and visually engaging experience that blends elements of digital nostalgia with modern VR capabilities. Users will be able to explore this stylized landscape, interacting with the environment in ways that enhance their sense of presence within the virtual world. Through this project, we aim to demonstrate how VR can evoke familiarity and nostalgia while offering a unique interactive experience.
+## **Overview**  
+DreamdowsXP is an immersive VR experience inspired by the nostalgic aesthetics of Windows XP, particularly the iconic *Bliss* wallpaper. Using head-mounted display (HMD) technology, it transports users into a serene, interactive grassland environment that blends digital nostalgia with modern VR capabilities.  
+
+## **Features**  
+- **Explorable Landscape** – A reimagined *Bliss* environment with dynamic weather, lighting, and ambient effects.  
+- **Interactive Elements** – Floating windows, nostalgic UI interactions, and playful glitches.  
+- **Easter Eggs & Soundscape** – Classic XP-inspired sounds, animations, and hidden references.  
+- **Future Expansions** – Potential multiplayer/social features, additional nostalgic environments, and increased interactivity.  
+
+## **Technology & Vision**  
+Built using **Unreal Engine/Unity**, DreamdowsXP leverages real-time rendering, physics-based interactions, and haptic feedback for an engaging experience. By merging nostalgia with VR, we aim to evoke comfort and familiarity while demonstrating the emotional power of immersive technology.  
+
