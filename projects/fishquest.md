@@ -11,8 +11,9 @@ labels:
 summary: "This project is a two-player fishing tournament game implemented in Java, built as part of a course assignment at Kapiʻolani Community College (ICS at KCC). The game simulates a traditional Hawaiian fish pond (Loko i’a), where players compete by catching and keeping the largest fish over a simulated period of 12 months."
 ---
 
-[GitHub Repository]https://github.com/kachamaru/assignment-6-loko-i-a-s24-assignment-6-group-3-main)
-<img width="300px" class="rounded float-start pe-4" src="../img/fishquest.png">|
+[GitHub Repository](https://github.com/kachamaru/assignment-6-loko-i-a-s24-assignment-6-group-3-main)
+
+<img width="300px" class="rounded float-start pe-4" src="../img/fishquest.png">
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
 # **Fish Quest: A Competitive Fishing Adventure**  
