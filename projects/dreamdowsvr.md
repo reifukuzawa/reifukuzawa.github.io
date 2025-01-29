@@ -11,6 +11,9 @@ labels:
   - GitHub Desktop
 summary: "ICS 486 (VR/AR Programming) project 3 is called Head Mounted Displays which is about virtual reality, or VR for short. Our VR project is called DreamdowsXP which is basically a grassland with WindowsXP aesthetics."
 ---
+
+[GitHub Repository](https://github.com/YJRenK9/DreamdowsXP-VR)
+
 <img width="300px" class="rounded float-start pe-4" src="../img/dreamdowsvr.png">
 <br><br><br><br><br><br><br><br>
 
@@ -30,4 +33,4 @@ DreamdowsXP is an immersive VR experience inspired by the nostalgic aesthetics o
 ## **Technology & Vision**  
 Built using **Unreal Engine/Unity**, DreamdowsXP leverages real-time rendering, physics-based interactions, and haptic feedback for an engaging experience. By merging nostalgia with VR, we aim to evoke comfort and familiarity while demonstrating the emotional power of immersive technology.  
 
-
+*Formatted using ChatGPT for improved readability and structure.*
