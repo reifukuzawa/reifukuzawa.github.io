@@ -43,7 +43,6 @@ This is the power that a well-posed question has since the community promptly en
 
 <img width="300px" class="rounded float-start pe-4" src="../img/badquestion.png">
 
-link to the page ↓
 [website](https://stackoverflow.com/questions/79391830/encounter-a-pydantic-validate-error-when-defining-a-crewai-object) <-This is the link
 
 
