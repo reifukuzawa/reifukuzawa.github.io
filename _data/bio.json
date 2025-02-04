@@ -21,7 +21,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "Java", "JavaScript", "TypeScript" ]
+      "keywords": [ "C", "Java", "JavaScript", "TypeScript", "Python"]
     },
     {
       "name": "Toolsets/OS",
@@ -49,7 +49,7 @@
       "highlights": [
         "Consistently prepared high-quality yakitori dishes, boosting customer satisfaction.",
         "Managed grill station efficiently during peak hours, ensuring timely service and food quality.",
-      "Maintained a clean and organized workspace, adhering to food safety and hygiene standards."
+        "Maintained a clean and organized workspace, adhering to food safety and hygiene standards."
       ]
     },
     {
