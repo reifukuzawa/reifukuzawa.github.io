@@ -5,7 +5,7 @@ title: "My Journey with TypeScript: Learning, Challenges, and Insights"
 date: 2025-01-22  
 published: true  
 labels:  
-  - Personal Experience  
+  - TypeScript 
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/learningjsandts.jpg">
