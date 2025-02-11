@@ -1,90 +1,67 @@
 ---
 layout: essay  
 type: essay  
-title: "Why Asking Questions the Right Way Matters: A Case Study on Stack Overflow"  
+title: "ESLint: Beginners Friend"  
 date: 2025-01-27  
 published: true  
 labels:  
   - Personal Experience  
 ---
 
+<img width="300px" class="rounded float-start pe-4" src="../img/eslint.png"> 
 
+## **Introduction**  
 
-I expected to find one within a few minutes but… A further twenty minutes had passed, and I was still looking. The bottom line is, finding a smart question on Stack Overflow was way harder than I thought. The platform was full of questions, most of which were either not well-structured, catch-all, or lacked important details. It finally clicked as I scrolled through the posts: asking a question the right way isn't about getting the answer; rather, it is effective communication, problem-solving, and respect toward the community's time.
-
-This experience taught me to appreciate Eric Raymond's essay, *"How to Ask Questions the Smart Way,"* even more. In this essay, I am going to discuss two contrasting examples from Stack Overflow—one example of a smart question and one that is not. I will be breaking the structures, responses, and outcome of these questions down and highlighting the major areas of difference between a well-structured inquiry and one that is frustrating.
-
----
-
-<img width="300px" class="rounded float-start pe-4" src="../img/goodquestion.png"> 
-
-[website](https://stackoverflow.com/questions/5020418/how-do-i-turn-off-the-fault-tolerant-heap) <-This is the link
-
-
-
-
-## The Anatomy of a Smart Question
-
-After a great deal of searching, I finally found a question that actually fit Raymond's criteria—one entitled **"How do I turn off the fault tolerant heap?"** that was well-formatted, clearly worded, and provided the necessary details to make troubleshooting possible.
-
-The post included:
-
-- A clear, specific title  
-- A full error message in code block format  
-- A description of what the user had already tried  
-- Version numbers of the involved software, viz. Windows 7, Visual Studio 2005  
-- A direct question seeking assistance in debugging the problem  
-
-This helped the experts to understand the problem right away and provide an effective solution. Within a few hours, responses were received for the question, and one of the answers explained the problem and promised a solution involving registry changes and system commands to disable the fault-tolerant heap.
-
-This is the power that a well-posed question has since the community promptly engaged, offered a diagnosis on the problem right there, and provided actionable solutions at hand.
+TDD, code reviews, pair programming, documentation. I have been exposed to a lot of technique in the past ICS classes to help better the code. At first, however, they barely made sense. One I had was code reviews, they were logically good but were inefficient. Others, like TDD, were just nonsense.  
 
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/badquestion.png">
+## **What you mean TDD?**  
 
-[website](https://stackoverflow.com/questions/79391830/encounter-a-pydantic-validate-error-when-defining-a-crewai-object) <-This is the link
+Test-driven development (TDD) was just frustrating. So in one of the assignments, the professor gave us the test cases and told us to "make them pass." But at that time, I barely knew how to write a working function.  
 
+I remember this one assignment where I needed to make a function work with user input correctly. The test cases were already provided, but I had no idea how to proceed with debugging the function. I stared at my screen, wondering:  
 
-## The Consequences of a Poorly Asked Question
+- **What exactly are these tests checking for?**  
+- **What is a "valid" output?**  
+- **Why do some of the test cases pass and others fail?**  
 
-On the other hand, I came across a question that best classifies as wrong help-seeking. The question, titled **"Encounter a pydantic validate error when defining a CrewAI object,"** got downvoted with minimal engagements.
-
-The major problems associated with this question were:
-
-- **A vague and unhelpful title:** All the title is saying is that there was some kind of Pydantic validation error, which doesn't provide any useful information about what happened or why.  
-- **No full error message:** Instead of pasting the error text itself, the user only referred to an image; this makes it harder for other people to analyze further or search for any similar issues.  
-- **Lack of context in what the user had already tried:** The question doesn't say what they did try as far as debugging the problem on their own goes.  
-- **No version information for Pydantic, CrewAI, or Python:** This is important because otherwise, the responders cannot identify whether the issue is version-specific.  
-
-Because of these omissions, the would-be respondents did not have any starting point. The answers given were mostly clarifications or requests for more details rather than direct solutions to the problems. This ultimately resulted in ineffectiveness whereby a user, instead of getting an immediate answer, had to go back to give more details, which delayed their problem from being solved.
-
-### How might this question have been better?
-
-A better approach would have been to include:
-
-- Full error message, in text format  
-- A minimal reproducible code example  
-- A list of troubleshooting steps already attempted  
-- Relevant version numbers of Python, CrewAI, Pydantic  
-
-A better title may be something like:  
-**"Unable to initialize task in CrewAI due to a Pydantic Validation Error on 'tasks' argument"**  
-
-By framing the question in this way, the user would have enhanced the prospect of getting a quick and effective response.
+Then, I just coded some random change in my function, ran the tests, and kept my finger crossed each time hoping test will pass. Even when I passed the tests, I wasn’t sure if my solution was actually good or I was just lucky. The whole process made me feel like TDD was only for experienced programmers, not for beginners like me.  
 
 ---
 
-## Lessons Learned
+## **ESLint: The Strict but Friendly Coach**  
 
-This exercise really crystallized one important truism: **a well-asked question is the primer for good problem-solving.** The clearer, more detailed, and better-structured a question is, the more it opens itself to useful discussions and shared knowledge. Poorly asked questions cause friction and delay responses, maybe even inhibit experts from participating.
+Then I started using ESLint in VSCode, and for the first time, I was like, *this is actually really nice.* Unlike TDD, which had been overwhelming, ESLint provided instant and clear feedback.  
 
-From now on, I will make sure my questions are well-structured, containing a good title, complete error messages, and a summary of what I have tried so far. This will not only help me to get better answers faster but also contribute to an efficient and supportive community on Stack Overflow.
+A specific instance that came to mind was when ESLint reminded me that I had an unused variable in my code. I thought my code was okay, but when I looked again, I had forgotten to use that variable in a part of a function. If it weren't for ESLint, I would have probably spent hours debugging. ESLint wasn't just forcing me to follow the rules—it was forcing me to write better code.  
 
-Next time I ask for help, I'll remember those twenty minutes—and make sure I don't waste someone else's.
+---
 
+## **Why I Think ESLint Is Better than Others**  
 
-## AI Acknowledgment
+### **Pair Programming: A Confusing Experience**  
+
+Pair programming can be beneficial, but as a beginner, it was frustrating most of the time. If my partner was more skilled, I'd feel intimidated and scared. And if we were both on the same level noobies, it was… yeah, I think you can guess.  
+
+I once wasted 30 minutes with my partner debating how to perform a function, only to realize that neither of our solutions were correct. Pair programming is great if at least one person knows what they’re doing, but for two beginners, it is a waste of time.  
+
+---
+
+### **Code Reviews vs. ESLint**  
+
+Code review is helpful, but it depends on someone else's time. Especially since this is a university, professors and TAs are busy, and waiting for feedback takes time. (*some people don't even respond :[ *)  
+
+ESLint, on the other hand, provides immediate feedback. Regardless of whether it is 2 AM or minutes near a deadline, it is always there, underlining mistakes and making me a more effective developer in real time.  
+
+---
+
+## **Conclusion**  
+
+TDD, pair programming, and code reviews all have their place, but first, you need to be able to write good code. That is where ESLint shines—it's a strict yet friendly coach that enforces good habits from day one.  
+
+---
+
+## **AI Acknowledgment**  
 
 I used ChatGPT to assist with formatting my essay into Markdown and refining sentence structure for clarity. The core content, analysis, and examples were developed by me, and AI was used as a support tool to ensure better readability and organization.
-
