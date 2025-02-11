@@ -2,7 +2,7 @@
 layout: essay  
 type: essay  
 title: "ESLint: Beginners Friend"  
-date: 2025-01-27  
+date: 2025-02-11 
 published: true  
 labels:  
   - Personal Experience  
