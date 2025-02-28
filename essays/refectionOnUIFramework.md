@@ -1,67 +1,83 @@
 ---
 layout: essay  
 type: essay  
-title: "ESLint: Beginners Friend"  
-date: 2025-02-11 
+title: "Bootstrap 5: Convenience vs. Foundational Knowledge"  
+date: 2025-02-27 
 published: true  
 labels:  
   - Personal Experience  
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/eslint.png"> 
+<img width="300px" class="rounded float-start pe-4" src="../img/noobguy.jpg"> 
 
-## **Introduction**  
+# **Introduction**
 
-TDD, code reviews, pair programming, documentation. I have been exposed to a lot of technique in the past ICS classes to help better the code. At first, however, they barely made sense. One I had was code reviews, they were logically good but were inefficient. Others, like TDD, were just nonsense.  
+In the past week I started to learn Bootstrap 5 as a UI framework.  
+At first I thought, "designing with this is so much easier!"  
 
----
+But eventually it became more of, "Do I really have an idea about what I'm doing?"  
 
-## **What you mean TDD?**  
+The more I used Bootstrap, the further my knowledge regarding HTML, CSS, and JavaScript appeared to leave my head.  
 
-Test-driven development (TDD) was just frustrating. So in one of the assignments, the professor gave us the test cases and told us to "make them pass." But at that time, I barely knew how to write a working function.  
-
-I remember this one assignment where I needed to make a function work with user input correctly. The test cases were already provided, but I had no idea how to proceed with debugging the function. I stared at my screen, wondering:  
-
-- **What exactly are these tests checking for?**  
-- **What is a "valid" output?**  
-- **Why do some of the test cases pass and others fail?**  
-
-Then, I just coded some random change in my function, ran the tests, and kept my finger crossed each time hoping test will pass. Even when I passed the tests, I wasn’t sure if my solution was actually good or I was just lucky. The whole process made me feel like TDD was only for experienced programmers, not for beginners like me.  
+The Bootstrap is not almighty and is not really helpful in every situation. Skipping basics was making life complicated in the long run.  
 
 ---
 
-## **ESLint: The Strict but Friendly Coach**  
+# **The Benefits of Working with Bootstrap**
 
-Then I started using ESLint in VSCode, and for the first time, I was like, *this is actually really nice.* Unlike TDD, which had been overwhelming, ESLint provided instant and clear feedback.  
+Bootstrap 5 simplified my work to a point where I was able to accomplish things quickly.  
 
-A specific instance that came to mind was when ESLint reminded me that I had an unused variable in my code. I thought my code was okay, but when I looked again, I had forgotten to use that variable in a part of a function. If it weren't for ESLint, I would have probably spent hours debugging. ESLint wasn't just forcing me to follow the rules—it was forcing me to write better code.  
+Some most notable benefits I had were:  
 
----
+- I didn't have to think about design because everything was sleek by default.  
+- The responsive design was seamless – layouts resized automatically to fit different screen sizes.  
+- Pre-build items like navbars and buttons have been time savers – just had to apply classes to these.  
 
-## **Why I Think ESLint Is Better than Others**  
-
-### **Pair Programming: A Confusing Experience**  
-
-Pair programming can be beneficial, but as a beginner, it was frustrating most of the time. If my partner was more skilled, I'd feel intimidated and scared. And if we were both on the same level noobies, it was… yeah, I think you can guess.  
-
-I once wasted 30 minutes with my partner debating how to perform a function, only to realize that neither of our solutions were correct. Pair programming is great if at least one person knows what they’re doing, but for two beginners, it is a waste of time.  
+For homework and classworks getting that perfect style in just a short while without spending an hour styling was necessary so I just used that.  
 
 ---
 
-### **Code Reviews vs. ESLint**  
+# **The Problem**
 
-Code review is helpful, but it depends on someone else's time. Especially since this is a university, professors and TAs are busy, and waiting for feedback takes time. (*some people don't even respond :[ *)  
+But with greater usage of Bootstrap, I understood that I was neglecting basics in core web development. Below are some problems I faced:  
 
-ESLint, on the other hand, provides immediate feedback. Regardless of whether it is 2 AM or minutes near a deadline, it is always there, underlining mistakes and making me a more effective developer in real time.  
+- I was comfortable working with the grid system, but I just couldn't get Flexbox or CSS Grid.  
+- I was not comfortable with CSS, so I struggled to override Bootstrap default styling.  
+- I copied Bootstrap JavaScript components without properly knowing how to work with them.  
+
+I have wondered: *"Am I just following documents in an unquestioning way without really learning?"*  
+
+It felt like I was simply copying Bootstrap classes rather than knowing the basics.  
 
 ---
 
-## **Conclusion**  
+# **Bootstrap is Robust But Must Be Underpinned**
 
-TDD, pair programming, and code reviews all have their place, but first, you need to be able to write good code. That is where ESLint shines—it's a strict yet friendly coach that enforces good habits from day one.  
+Ultimately, Bootstrap is just a tool—it doesn’t replace fundamental web development knowledge.  
+
+While UI frameworks speed development, dependency can arise. If you're not familiar with how HTML, CSS, and JavaScript operate, you can:  
+
+- Difficulty in making even minimal styling changes.  
+- Become default because default is not an easy thing to change.  
+- Feel confused when working on a project to build something in an empty context.  
 
 ---
 
-## **AI Acknowledgment**  
+# **Conclusion**
 
-I used ChatGPT to assist with formatting my essay into Markdown and refining sentence structure for clarity. The core content, analysis, and examples were developed by me, and AI was used as a support tool to ensure better readability and organization.
+Using Bootstrap in university work was efficient, but was not helpful in building core competencies. instead it told me just how much I needed to learn.  
+
+Bootstrap is perfect for instant professional designs. But this does take an in-depth understanding of HTML, CSS, and JavaScript.  
+
+I should have done the fundamentals in advance before proceeding with a UI framework.  
+
+In the future, I'll strive to have a better understanding of core web development concepts in order to utilize Bootstrap in an enabling role rather than relying upon it as a crutch.  
+
+---
+
+# **AI Acknowledgment**
+
+I used ChatGPT to help render my essay in Markdown form and to reorganize sentences to express things in clearer language.  
+
+All original content material, analysis, and examples were done by myself, while I used AI assistance to express things in improved readability and organization.
+
