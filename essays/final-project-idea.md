@@ -75,3 +75,5 @@ Rei Fukuzawa
 
 ---
 
+**Note:**  
+This proposal was developed with the assistance of AI tools (such as ChatGPT) to help with brainstorming, outlining ideas, and refining the wording. All final decisions regarding the content, structure, and direction of the project were made by me.
