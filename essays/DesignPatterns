@@ -1,67 +1,57 @@
 ---
 layout: essay  
 type: essay  
-title: "ESLint: Beginners Friend"  
-date: 2025-02-11 
+title: "CI/CD: Design Patterns Behind the Scenes"  
+date: 2025-04-24  
 published: true  
 labels:  
   - Personal Experience  
+  - DevOps  
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/single.jpg"> 
+<img width="300px" class="rounded float-start pe-4" src="../img/single.jpg">  
 
 ## **Introduction**  
 
-TDD, code reviews, pair programming, documentation. I have been exposed to a lot of technique in the past ICS classes to help better the code. At first, however, they barely made sense. One I had was code reviews, they were logically good but were inefficient. Others, like TDD, were just nonsense.  
+In our ICS 314 project *Club Organizers*, I didn’t touch much of the frontend. My main role was setting up backend infrastructure—mostly working with Vercel, Supabase, environment variables, and GitHub Actions.  
+
+And honestly? I thought I was just “connecting stuff.” But as the project progressed, I noticed a pattern. Literally. Design patterns. The same kind we learn in theory, quietly showing up in practice—especially in CI/CD and deployment flow.
 
 ---
 
-## **What you mean TDD?**  
+## **Singleton: .env Doesn’t Lie**  
 
-Test-driven development (TDD) was just frustrating. So in one of the assignments, the professor gave us the test cases and told us to "make them pass." But at that time, I barely knew how to write a working function.  
+One key lesson early on: **never repeat your secrets**. API keys and URLs were defined once in `.env.local`, then used everywhere. Vercel lets you define environment variables for each deployment stage (dev, preview, prod), but they all behave like a **Singleton**—only one version per environment, shared across the entire app.
 
-I remember this one assignment where I needed to make a function work with user input correctly. The test cases were already provided, but I had no idea how to proceed with debugging the function. I stared at my screen, wondering:  
-
-- **What exactly are these tests checking for?**  
-- **What is a "valid" output?**  
-- **Why do some of the test cases pass and others fail?**  
-
-Then, I just coded some random change in my function, ran the tests, and kept my finger crossed each time hoping test will pass. Even when I passed the tests, I wasn’t sure if my solution was actually good or I was just lucky. The whole process made me feel like TDD was only for experienced programmers, not for beginners like me.  
+Without this, we’d risk overwriting keys or leaking sensitive info. So yeah, not glamorous code—but design pattern? Absolutely.
 
 ---
 
-## **ESLint: The Strict but Friendly Coach**  
+## **Facade: GitHub Actions Is Just Built Different**  
 
-Then I started using ESLint in VSCode, and for the first time, I was like, *this is actually really nice.* Unlike TDD, which had been overwhelming, ESLint provided instant and clear feedback.  
+GitHub Actions runs our CI/CD flow. One push to `main`, and like magic:  
 
-A specific instance that came to mind was when ESLint reminded me that I had an unused variable in my code. I thought my code was okay, but when I looked again, I had forgotten to use that variable in a part of a function. If it weren't for ESLint, I would have probably spent hours debugging. ESLint wasn't just forcing me to follow the rules—it was forcing me to write better code.  
+- Playwright runs  
+- ESLint checks  
+- Build happens  
+- Site is deployed  
 
----
-
-## **Why I Think ESLint Is Better than Others**  
-
-### **Pair Programming: A Confusing Experience**  
-
-Pair programming can be beneficial, but as a beginner, it was frustrating most of the time. If my partner was more skilled, I'd feel intimidated and scared. And if we were both on the same level noobies, it was… yeah, I think you can guess.  
-
-I once wasted 30 minutes with my partner debating how to perform a function, only to realize that neither of our solutions were correct. Pair programming is great if at least one person knows what they’re doing, but for two beginners, it is a waste of time.  
+What looks simple is hiding layers of complexity. This is **Facade pattern** in action. It gives us one clean entry point (`.yml` file), while quietly calling on all the tools behind the scenes.
 
 ---
 
-### **Code Reviews vs. ESLint**  
+## **Adapter: When Supabase Meets Next.js**  
 
-Code review is helpful, but it depends on someone else's time. Especially since this is a university, professors and TAs are busy, and waiting for feedback takes time. (*some people don't even respond :[ *)  
-
-ESLint, on the other hand, provides immediate feedback. Regardless of whether it is 2 AM or minutes near a deadline, it is always there, underlining mistakes and making me a more effective developer in real time.  
+Supabase is powerful—but it’s not tailored for Next.js out of the box. I had to wrap certain client features to work in server components, or inject environment variables properly for App Router use. That’s where **Adapter** comes in: bridging two systems that weren’t made for each other, so they work like they were.
 
 ---
 
 ## **Conclusion**  
 
-TDD, pair programming, and code reviews all have their place, but first, you need to be able to write good code. That is where ESLint shines—it's a strict yet friendly coach that enforces good habits from day one.  
+I used to think design patterns only lived in frontend components or OOP-heavy Java apps. But now I realize—they’re everywhere. The tools I set up for our team worked smoothly not just because I wired them up, but because I unknowingly followed proven patterns. Singleton, Facade, Adapter—those weren't just buzzwords from class. They were how I built things to last.
 
 ---
 
 ## **AI Acknowledgment**  
 
-I used ChatGPT to assist with formatting my essay into Markdown and refining sentence structure for clarity. The core content, analysis, and examples were developed by me, and AI was used as a support tool to ensure better readability and organization.
+I used ChatGPT to assist with formatting this essay and improving sentence clarity. All examples and content are based on my own development experience with the Club Organizers project in ICS 314. AI helped ensure my ideas were clearly structured and easy to follow.
