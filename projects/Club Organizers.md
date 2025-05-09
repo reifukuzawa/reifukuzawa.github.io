@@ -31,7 +31,6 @@ I focused on backend configuration and deployment, including:
 - Supabase database setup and schema design
 - Vercel deployment and `.env` variable management
 - GitHub Actions for CI/CD with Playwright and ESLint integration
-- Role-based access features (user, admin, super admin)
 
 I also participated in bug fixing, documentation, and final milestone QA testing.
 
