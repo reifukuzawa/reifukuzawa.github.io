@@ -9,7 +9,7 @@ labels:
 - Software Engineering
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/ai-reflection.jpg">  
+<img width="300px" class="rounded float-start pe-4" src="../img/aimeme.jpg">  
 
 **Reflection on AI Use in ICS 314**
 
