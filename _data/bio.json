@@ -1,31 +1,64 @@
 {
   "basics": {
     "name": "Rei Fukuzawa",
-    "label": "Student",
+    "label": "Computer Science Student | Web & Data Enthusiast",
     "picture": "https://github.com/reifukuzawa.png",
     "email": "reifukuz@hawaii.edu",
     "phone": "808-824-8349",
     "website": "https://reifukuzawa.github.io",
-    "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2026.",
-    "location": { "address": "", "postalCode": "96816", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I am pursuing a B.A. in Computer Science at the University of Hawai‘i at Mānoa with a strong interest in software engineering, developer relations, and digital storytelling. I plan to study abroad at Chuo University in Fall 2025 and expect to graduate in Spring 2026.",
+    "location": {
+      "address": "",
+      "postalCode": "96816",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { "network": "github", "username": "kachamaru", "url": "https://github.com/reifukuzawa" },
-      { "network": "linkedin", "username": "reifukuzawa", "url": "https://www.linkedin.com/in/rei-fukuzawa/" }
+      {
+        "network": "github",
+        "username": "kachamaru",
+        "url": "https://github.com/reifukuzawa"
+      },
+      {
+        "network": "linkedin",
+        "username": "reifukuzawa",
+        "url": "https://www.linkedin.com/in/rei-fukuzawa/"
+      }
     ]
   },
   "interests": [
-    { "name": "Java Script" },
+    { "name": "JavaScript" },
     { "name": "Japanese Tea Ceremony" },
-    { "name": "Skate Boarding" }
+    { "name": "Skateboarding" },
+    { "name": "AI" },
+    { "name": "Digital Storytelling" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "Java", "JavaScript", "TypeScript", "Python"]
+      "keywords": [
+        "C",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "React",
+        "Next.js",
+        "Tailwind CSS"
+      ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": ["Windows 11", "MacOS", "Ubuntu", "Git/GitHub"]
+      "keywords": [
+        "Windows 11",
+        "macOS",
+        "Ubuntu",
+        "Git/GitHub",
+        "Supabase",
+        "Vercel",
+        "GitHub Actions"
+      ]
     }
   ],
   "education": [
@@ -35,7 +68,14 @@
       "studyType": "B.A.",
       "startDate": "2022-09-01",
       "endDate": "Present",
-      "courses": []
+      "courses": [
+        "ICS 111: Introduction to Computer Science I",
+        "ICS 211: Introduction to Computer Science II",
+        "ICS 212: Program Structure",
+        "ICS 241: Discrete Mathematics",
+        "ICS 314: Software Engineering",
+        "ICS 355: Security and Ethics"
+      ]
     }
   ],
   "work": [
@@ -86,6 +126,11 @@
       "title": "Thomas E. Nichols and Debra S. Nichols Endowed Scholarship",
       "date": "2024-Present",
       "awarder": "University of Hawaii at Mānoa"
+    },
+    {
+      "title": "Freeman-ASIA Scholarship (Pending)",
+      "date": "2025",
+      "awarder": "Institute of International Education"
     }
   ],
   "references": [
